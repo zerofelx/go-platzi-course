@@ -23,4 +23,11 @@ func main() {
 	var d bool
 
 	fmt.Println(a, b, c, d)
+
+	// Calc square area
+
+	const squareBase = 10
+	squareArea := squareBase * squareBase
+
+	fmt.Println("Square Area:", squareArea)
 }
